@@ -12,6 +12,18 @@ Uygulama Hay Teknoloji'nin Developer ID sertifikasıyla imzalı ve Apple tarafı
 
 **Gereksinim:** macOS 14 (Sonoma) veya üzeri.
 
+### Homebrew ile
+
+Terminal kullanmayı tercih ediyorsan:
+
+```sh
+brew tap hayrat/tap
+brew trust hayrat/tap
+brew install --cask vazifedar
+```
+
+Sonraki sürümlere `brew upgrade --cask vazifedar` ile geçersin. (`brew trust`, Homebrew 6'nın üçüncü parti tap'ler için istediği tek seferlik onaydır.)
+
 ## Giriş
 
 İki yoldan giriş yapabilirsin:
