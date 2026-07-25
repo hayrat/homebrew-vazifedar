@@ -4,7 +4,7 @@ Kurum içi görev atama ve takip uygulamasının macOS istemcisi.
 
 ## İndir
 
-### ⬇️ [Vazifedar.dmg — en son sürüm](https://github.com/hayteknoloji/vazifedar-downloads/releases/latest/download/Vazifedar.dmg)
+### ⬇️ [Vazifedar.dmg — en son sürüm](https://github.com/hayrat/vazifedar-downloads/releases/latest/download/Vazifedar.dmg)
 
 Kurulum: indirdiğin DMG'ye çift tıkla, açılan pencerede **Vazifedar**'ı **Uygulamalar** klasörüne sürükle, sonra Uygulamalar'dan aç.
 
@@ -23,10 +23,10 @@ Uygulama Hay Teknoloji'nin Developer ID sertifikasıyla imzalı ve Apple tarafı
 
 ## Sürümler
 
-Tüm sürümler [Releases](https://github.com/hayteknoloji/vazifedar-downloads/releases) sayfasında. Belirli bir sürümü doğrudan indirmek için:
+Tüm sürümler [Releases](https://github.com/hayrat/vazifedar-downloads/releases) sayfasında. Belirli bir sürümü doğrudan indirmek için:
 
 ```
-https://github.com/hayteknoloji/vazifedar-downloads/releases/download/macos-0.0.1/Vazifedar.dmg
+https://github.com/hayrat/vazifedar-downloads/releases/download/macos-0.0.1/Vazifedar.dmg
 ```
 
 ## Kaynak kod
