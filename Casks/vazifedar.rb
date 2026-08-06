@@ -2,8 +2,8 @@
 # the next release overwrites this file. Version and checksum are filled in
 # from the DMG that was just notarized and published.
 cask "vazifedar" do
-  version "0.0.6"
-  sha256 "82ac9911d5ee250065eb9111c6e0e1af8a3019aa8c5ff26561b4070ee8666cc2"
+  version "0.0.7"
+  sha256 "7c7dc4d2724e172cf108bbdc0299cc645509ba290dd0f2689230163a7bff9e96"
 
   url "https://github.com/hayrat/homebrew-vazifedar/releases/download/macos-#{version}/Vazifedar.dmg",
       verified: "github.com/hayrat/homebrew-vazifedar/"
@@ -17,10 +17,11 @@ cask "vazifedar" do
     regex(/^macos[._-]v?(\d+(?:\.\d+)+)$/i)
   end
 
-  # Plain symbol, not ">= :sonoma": the string-comparison form is deprecated and
+  # Plain symbol, not ">= :tahoe": the string-comparison form is deprecated and
   # a bare symbol already means "this version or newer". Matches the project's
-  # macOS 14.0 deployment target.
-  depends_on macos: :sonoma
+  # macOS 26.0 deployment target — the UI is built on `.glassEffect`, which
+  # shipped with macOS 26, so there is no older build to fall back to.
+  depends_on macos: :tahoe
 
   app "Vazifedar.app"
 
