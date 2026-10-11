@@ -2,8 +2,8 @@
 # the next release overwrites this file. Version and checksum are filled in
 # from the DMG that was just notarized and published.
 cask "vazifedar" do
-  version "0.0.25"
-  sha256 "0a41ffe5b5d5ab7fdfde31ab6553417689112cc8c01db2903254c0eacd981b9b"
+  version "0.0.26"
+  sha256 "afe0ffb9b408a844f3d222450f8c3b42a2b880f2324afbbb7208ebbca75fb508"
 
   url "https://github.com/hayrat/homebrew-vazifedar/releases/download/macos-#{version}/Vazifedar.dmg",
       verified: "github.com/hayrat/homebrew-vazifedar/"
